@@ -6,204 +6,318 @@
 /* 
    Parte de Edgar Parada
 */
-.align-center{
-   text-align: center;
-   border: 3px solid green;
+.align-center {
+  text-align: center;
+  border: 3px solid green;
 }
 
-.align-right{
-   float: right;
-   border: 3px solid #030303;   
+.align-right {
+  float: right;
+  border: 3px solid #030303;
 }
 
-.CSS-Combinators + p {
-   background-color: yellow;
+.CSS-Combinators+p {
+  background-color: yellow;
 }
 
 a.highlight:hover {
-   color: #ff0000;
-   font-size: 22px;
-} 
-
-.CSS-Pseudo-Elements::first-line {
-   color: #ff0000;
-   font-variant: small-caps;
- }
-
- .CSS-Opacity img {
-   opacity: 0.5;
- }
-
- .ul-Navigation-Bar{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-
- }
-
- .ul-Navigation-Bar li{
-   display: inline;
- }
-
-
- .CSS-Dropdown{
-   position: relative;
-   display: inline-block;
-   padding: 25px;
-   border-color: black;
-   background-color: red;
-   
- }
-
- .dropdown-content{
-   display: none;
-   position: absolute;
-   background-color: #f9f9f9;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   padding: 12px 16px;
-   z-index: 1;
- }
-
- .CSS-Dropdown:hover .dropdown-content {
-   display: block;
-   
- }
-
- div.CSS-Image-Gallery {
-   margin: 5px;
-   border: 1px solid #ccc;
-   float: left;
-   width: 180px;
- }
- 
- div.CSS-Image-Gallery:hover {
-   border: 1px solid #777;
- }
- 
- div.CSS-Image-Gallery img {
-   width: 100%;
-   height: auto;
- }
- 
- div.desc {
-   padding: 15px;
-   text-align: center;
- }
-
- 
- #navlist li {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-   position: absolute;
-   top: 0;
- }
- 
- #navlist li, #navlist a {
-   height: 44px;
-   display: block;
- }
- 
- #home {
-   left: 0px;
-   width: 46px;
-   background: url('image.png') 0 0;
- }
-
- [title~="Atributte-Selector"] {
-   text-decoration: overline;
-   color: #ff0000;
- }
-
- input[type=text], select {
-   width: 100%;
-   padding: 12px 20px;
-   margin: 8px 0;
-   display: inline-block;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   box-sizing: border-box;
- }
- 
- input[type=submit] {
-   width: 100%;
-   background-color: #4CAF50;
-   color: white;
-   padding: 14px 20px;
-   margin: 8px 0;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
- }
- 
- input[type=submit]:hover {
-   background-color: #45a049;
- }
- 
- .div-Forms {
-   border-radius: 5px;
-   background-color: #f2f2f2;
-   padding: 20px;
- }
-
- body {
-   counter-reset: section;
- }
-
- h6::before {
-   counter-increment: section;
-   content: "Section " counter(section) ": ";
- }
-
- /* Create three equal columns that floats next to each other */
-.column {
-   float: left;
-   width: 30%;
-   padding: 15px;
- }
- 
- /* Clear floats after the columns */
- .row::after {
-   content: "";
-   display: table;
-   clear: both;
- }
- 
- /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
- @media screen and (max-width:600px) {
-   .column {
-     width: 100%;
-   }
- }
-
- #h2-Units-Example{
-   font-size: 15px;
- }
-
- .test {color: green;} 
-
- .CSS-Important p{
-   background-color: #777 !important;
- }
-
- .CSS-Important h2{
-   border: #4CAF50;
-   font-size: 20px;
- }
-
-.CSS-Math-Functions{
-   background-color: antiquewhite;
+  color: #ff0000;
+  font-size: 22px;
 }
 
- #div1 {
-   position: relative;
-   left: 50px;
-   width: calc(100% - 100px);
-   border: 1px solid black;
-   background-color: yellow;
-   padding: 5px;
- }
+.CSS-Pseudo-Elements::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+.CSS-Opacity img {
+  opacity: 0.5;
+}
+
+.ul-Navigation-Bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.ul-Navigation-Bar li {
+  display: inline;
+}
+
+
+.CSS-Dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 25px;
+  border-color: black;
+  background-color: red;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.CSS-Dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+div.CSS-Image-Gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.CSS-Image-Gallery:hover {
+  border: 1px solid #777;
+}
+
+div.CSS-Image-Gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li,
+#navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url('image.png') 0 0;
+}
+
+[title~="Atributte-Selector"] {
+  text-decoration: overline;
+  color: #ff0000;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.div-Forms {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body {
+  counter-reset: section;
+}
+
+h6::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#h2-Units-Example {
+  font-size: 15px;
+}
+
+.test {
+  color: green;
+}
+
+.CSS-Important p {
+  background-color: #777 !important;
+}
+
+.CSS-Important h2 {
+  border: #4CAF50;
+  font-size: 20px;
+}
+
+.CSS-Math-Functions {
+  background-color: antiquewhite;
+}
+
+#div1 {
+  position: relative;
+  left: 50px;
+  width: calc(100% - 100px);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+}
+
+#Rounded-Corners {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 100px;
+  height: 80px;
+}
+
+#No-Rounded-Corners {
+  background: #73AD21;
+  padding: 20px;
+  width: 100px;
+  height: 80px;
+}
+
+#Border-Images {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+}
+
+#No-Border-Images{
+  border: 10px solid transparent;
+  padding: 15px;
+  
+}
+
+#example1 {
+  background-image: url(image.png);
+  
+  background-repeat: no-repeat, repeat;
+
+}
+
+#example1 p,  h1{
+   color: #f9f9f9;
+
+}
+
+#Colors-RGBA{
+  background-color:rgba(255,0,0,0.3);
+}
+
+.CSS-Color-Keywords{
+  background-color: #ff0000;
+}
+
+div.ex1 { 
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+div.ex2 { 
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15px;
+} 
+
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+
+#h1-Shadows{
+  background-color: black;
+  text-shadow: 2px 2px red;
+}
+
+.CSS-Text-Effects{
+  background-color: greenyellow;
+}
+
+p.test2 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.CSS-Web-Fonts{
+  background-color: rgb(2, 139, 32);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+
+* {
+  font-family: myFirstFont;
+}
+
+div#myDiv {
+  width: 100px;
+  position: static;
+  height: 80px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: rotate(20deg);
+}
 /* 
    Parte de Cristian Estrada
 */
