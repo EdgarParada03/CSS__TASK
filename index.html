@@ -1,196 +1,402 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Página Sencilla</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Bienvenido a Mi Página</h1>
+      <h1>Bienvenido a Mi Página</h1>
     </header>
     <main>
-        <p>Esta es una página HTML sencilla con un archivo CSS externo.</p>
+      <p>Esta es una página HTML sencilla con un archivo CSS externo.</p>
 
-        <main class="Edgar-main">
+      <main class="Edgar-main">
+        <div>
+          <div class="align-center">This is a example of CSS Align Center</div>
 
-            <div>
+          <div class="align-right">This is a example of CSS Align Right</div>
+        </div>
 
-                <div class="align-center">
-                    This is a example of CSS Align Center
-                </div>
+        <div class="CSS-Combinators">
+          <p>Combinators into a div</p>
+        </div>
 
-                <div class="align-right">
-                    This is a example of CSS Align Right
-                </div>
+        <p>Combinators outside a div</p>
 
+        <div class="CSS-Pseudo-Class">
+          <p>
+            <a class="highlight"
+              >When you hover over this Pseudo Class Example, it will change
+              color and font size</a
+            >
+          </p>
+        </div>
+
+        <div class="CSS-Pseudo-Elements">
+          <p>
+            You can use the ::first-line pseudo-element to add a special effect
+            to the first line of a text. Some more text. And even more, and
+            more, and more, and more, and more, and more, and more, and more,
+            and more, and more, and more, and more.
+          </p>
+        </div>
+
+        <div class="CSS-Opacity">
+          <p>Example of an Image with 50% of opacity:</p>
+          <img src="img/image.png" alt="Forest" width="170" height="100" />
+        </div>
+
+        <p>Same Image without 50% of opacity:</p>
+        <img src="img/image.png" alt="Forest" width="170" height="100" />
+
+        <div class="CSS-Navigation-Bar">
+          <ul class="ul-Navigation-Bar">
+            <li><a href="default.asp">A Example</a></li>
+            <li><a href="news.asp">of a</a></li>
+            <li><a href="contact.asp">Navigation Bar</a></li>
+            <li><a href="about.asp">Without the bullets</a></li>
+          </ul>
+        </div>
+
+        <div class="CSS-Dropdown">
+          <span>Mouse over me, for see the DropDown function</span>
+          <div class="dropdown-content">
+            <p>Hello, remember that u can do it with a menu or imagen too</p>
+          </div>
+        </div>
+
+        <div class="CSS-Image-Gallery">
+          <a target="_blank" href="img/image.png">
+            <img
+              src="img/image.png"
+              alt="Cinque Terre"
+              width="600"
+              height="400"
+            />
+          </a>
+          <div class="desc">
+            An example of the Image Gallery, u can add a description of the
+            image here
+          </div>
+        </div>
+
+        <div class="CSS-Image-Sprites">
+          <ul id="navlist">
+            <li id="home">
+              <a href="Go_to_another_website_or_something_"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="CSS-Attribute-Selector">
+          <ul class="ul-Navigation-Bar">
+            <li>
+              <p title="Atributte-Selector">
+                Example with a Atributte-Selector
+              </p>
+            </li>
+            <li>
+              <p title="Atributte-Selector">
+                Example with a Atributte-Selector
+              </p>
+            </li>
+            <li>
+              <p>Example without a Atributte-Selector</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="CSS-Forms">
+          <h3>Using CSS to style an HTML Form</h3>
+
+          <div class="div-Forms">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+
+        <div class="CSS-Counters">
+          <h1>Using CSS Counters</h1>
+
+          <h6>Example of</h6>
+          <h6>CSS Counters</h6>
+          <h6>Using for</h6>
+          <h6>Create a section</h6>
+          <h6>Just with the "h6" tag</h6>
+        </div>
+
+        <div class="CSS-WebsiteLayout">
+          <h2>How needs to look an columns of a website:</h2>
+          <div class="row">
+            <div class="column">
+              <h2>Column 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec
+                neque ultricies, eget elementum magna tristique. Quisque
+                vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
+                eget luctus quam orci in velit. Praesent scelerisque tortor sed
+                accumsan convallis.
+              </p>
             </div>
 
-            <div class="CSS-Combinators">
-                <p>Combinators into a div</p>
+            <div class="column">
+              <h2>Column 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec
+                neque ultricies, eget elementum magna tristique. Quisque
+                vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
+                eget luctus quam orci in velit. Praesent scelerisque tortor sed
+                accumsan convallis.
+              </p>
             </div>
 
-            <p>Combinators outside a div</p>
-
-            <div class="CSS-Pseudo-Class">
-                <p><a class="highlight">When you hover over this Pseudo Class Example, it will change color and font
-                        size</a></p>
+            <div class="column">
+              <h2>Column 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas sit amet pretium urna. Vivamus venenatis velit nec
+                neque ultricies, eget elementum magna tristique. Quisque
+                vehicula, risus eget aliquam placerat, purus leo tincidunt eros,
+                eget luctus quam orci in velit. Praesent scelerisque tortor sed
+                accumsan convallis.
+              </p>
             </div>
+          </div>
+        </div>
 
-            <div class="CSS-Pseudo-Elements">
-                <p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some
-                    more text. And even more, and more, and more, and more, and more, and more, and more, and more, and
-                    more, and more, and more, and more.</p>
-            </div>
+        <div class="CSS-Units">
+          <h2>Example of one "h2" tag with a normal size</h2>
+          <h2 id="h2-Units-Example">
+            Example of one "h2" tag with a size of 10 pixels
+          </h2>
+        </div>
 
-            <div class="CSS-Opacity">
-                <p>Example of an Image with 50% of opacity:</p>
-                <img src="img/image.png" alt="Forest" width="170" height="100">
-            </div>
+        <div class="CSS-Specificity">
+          <p class="test">
+            Example of a tag with the design from a CSS Specificity
+          </p>
+        </div>
 
-            <p>Same Image without 50% of opacity:</p>
-            <img src="img/image.png" alt="Forest" width="170" height="100">
+        <div class="CSS-Important">
+          <h2>
+            How we can see, the design is prioritized by the tag that have the
+            "!important" on CSS:
+          </h2>
+          <p id="p1_Edgar">
+            Example of one "p" tag without the "!important" on CSS
+          </p>
+          <p id="p2_Edgar">
+            Example of one "p" tag with the "!important" on CSS
+          </p>
+        </div>
 
-            <div class="CSS-Navigation-Bar">
-                <ul class="ul-Navigation-Bar">
-                    <li><a href="default.asp">A Example</a></li>
-                    <li><a href="news.asp">of a</a></li>
-                    <li><a href="contact.asp">Navigation Bar</a></li>
-                    <li><a href="about.asp">Without the bullets</a></li>
-                </ul>
-            </div>
+        <div class="CSS-Math-Functions">
+          <h1>
+            An example of a Math Function on the CSS - The calc() Function
+          </h1>
 
-            <div class="CSS-Dropdown">
-                <span>Mouse over me, for see the DropDown function</span>
-                <div class="dropdown-content">
-                    <p>Hello, remember that u can do it with a menu or imagen too</p>
-                </div>
-            </div>
+          <p>
+            Create a div that stretches across the window, with a 50px gap
+            between both sides of the div and the edges of the window:
+          </p>
 
-            <div class="CSS-Image-Gallery">
-                <a target="_blank" href="img/image.png">
-                    <img src="img/image.png" alt="Cinque Terre" width="600" height="400">
-                </a>
-                <div class="desc">An example of the Image Gallery, u can add a description of the image here</div>
-            </div>
-
-            <div class="CSS-Image-Sprites">
-                <ul id="navlist">
-                    <li id="home"><a href="Go_to_another_website_or_something_"></a></li>
-
-                </ul>
-            </div>
-
-            <div class="CSS-Attribute-Selector">
-                <ul class="ul-Navigation-Bar">
-                    <li>
-                        <p title="Atributte-Selector">Example with a Atributte-Selector</p>
-                    </li>
-                    <li>
-                        <p title="Atributte-Selector">Example with a Atributte-Selector</p>
-                    </li>
-                    <li>
-                        <p>Example without a Atributte-Selector</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="CSS-Forms">
-                <h3>Using CSS to style an HTML Form</h3>
-
-                <div class="div-Forms">
-                    <form action="/action_page.php">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
-                        </select>
-
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
-
-            <div class="CSS-Counters">
-                <h1>Using CSS Counters</h1>
-
-                <h6>Example of</h6>
-                <h6>CSS Counters</h6>
-                <h6>Using for</h6>
-                <h6>Create a section</h6>
-                <h6>Just with the "h6" tag</h6>
-            </div>
-
-            <div class="CSS-WebsiteLayout">
-                <h2>How needs to look an columns of a website:</h2>
-                <div class="row">
-                    <div class="column">
-                        <h2>Column 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
-                            Vivamus
-                            venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus
-                            eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent
-                            scelerisque tortor sed accumsan convallis.</p>
-                    </div>
-
-                    <div class="column">
-                        <h2>Column 2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
-                            Vivamus
-                            venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus
-                            eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent
-                            scelerisque tortor sed accumsan convallis.</p>
-                    </div>
-
-                    <div class="column">
-                        <h2>Column 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
-                            Vivamus
-                            venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus
-                            eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent
-                            scelerisque tortor sed accumsan convallis.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="CSS-Units">
-                <h2>Example of one "h2" tag with a normal size</h2>
-                <h2 id="h2-Units-Example">Example of one "h2" tag with a size of 10 pixels</h2>
-            </div>
-
-            <div class="CSS-Specificity">
-                <p class="test">Example of a tag with the design from a CSS Specificity</p>
-            </div>
-
-            <div class="CSS-Important">
-                <h2>How we can see, the design is prioritized by the tag that have the "!important" on CSS:</h2>
-                <p id="p1_Edgar">Example of one "p" tag without the "!important" on CSS</p>
-                <p id="p2_Edgar">Example of one "p" tag with the "!important" on CSS</p>
-            </div>
-
-            <div class="CSS-Math-Functions">
-                <h1>An example of a Math Function on the CSS - The calc() Function</h1>
-
-                <p>Create a div that stretches across the window, with a 50px gap between both sides of the div and the
-                    edges of the window:</p>
-
-                <div id="div1">Some text...</div>
-            </div>
-        </main>
+          <div id="div1">Some text...</div>
+        </div>
+      </main>
     </main>
-    <footer>
-        <p>© 2024 Mi Página Sencilla</p>
-    </footer>
-</body>
 
+    <div class="parte-jose">
+      <h2>Ejemplos CSS y RWD</h2>
+
+      <section>
+        <h2>CSS Transitions</h2>
+        <div class="transition-box"></div>
+      </section>
+
+      <section>
+        <h2>CSS Animations</h2>
+        <div class="animation-box"></div>
+      </section>
+
+      <section>
+        <h2>CSS Tooltips</h2>
+        <div class="tooltip">
+          Pasa el ratón por aquí
+          <span class="tooltiptext">Tooltip Text</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>CSS Style Images</h2>
+        <img
+          src="img/wallpaper.jpg"
+          alt="Imagen de ejemplo"
+          class="styled-image"
+        />
+      </section>
+
+      <section>
+        <h2>CSS Image Reflection</h2>
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Imagen con reflexión"
+          class="reflected-image"
+        />
+      </section>
+
+      <section>
+        <h2>CSS object-fit</h2>
+        <img
+          src="./img/flower.jpg"
+          alt="Imagen object-fit"
+          class="object-fit-image"
+        />
+      </section>
+
+      <section>
+        <h2>CSS object-position</h2>
+        <img
+          src="./img/flower.jpg"
+          alt="Imagen object-position"
+          class="object-position-image"
+        />
+      </section>
+
+      <section>
+        <h2>CSS Masking</h2>
+        <div class="masked-box">
+          <img
+            src="img/wallpaper2.jpg"
+            alt="Cinque Terre"
+            width="600"
+            height="400"
+          />
+        </div>
+      </section>
+
+      <section>
+        <h2>CSS Buttons</h2>
+        <button class="styled-button">Click Me</button>
+      </section>
+
+      <section>
+        <h2>CSS Pagination</h2>
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">&raquo;</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>CSS Multiple Columns</h2>
+        <div class="multi-column-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit
+          amet accumsan urna. Duis eu nisi velit.
+        </div>
+      </section>
+
+      <section>
+        <h2>CSS User Interface</h2>
+        <input type="text" placeholder="Focus me" class="styled-input" />
+      </section>
+
+      <section>
+        <h2>CSS Variables</h2>
+        <div class="variable-box">Caja con CSS Variables</div>
+      </section>
+
+      <section>
+        <h2>CSS Box Sizing</h2>
+        <div class="box-sizing-box">Box Sizing Example</div>
+      </section>
+
+      <section>
+        <h2>CSS Media Queries</h2>
+        <div class="media-query-box">Redimensiona la ventana</div>
+      </section>
+
+      <section>
+        <h2>CSS Flexbox</h2>
+        <div class="flexbox-container">
+          <div class="flexbox-item">1</div>
+          <div class="flexbox-item">2</div>
+          <div class="flexbox-item">3</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>RWD Intro</h2>
+        <div class="rwd-intro">Responsive Web Design</div>
+      </section>
+
+      <section>
+        <h2>RWD Viewport</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+          laudantium inventore, modi expedita nostrum tempora voluptas aliquid
+          adipisci facilis ratione perferendis aliquam ullam similique illum
+          explicabo, excepturi, optio enim. Voluptatem.
+        </p>
+      </section>
+
+      <section>
+        <h2>RWD Grid View</h2>
+        <div class="rwd-grid">
+          <div class="grid-item">A</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item">C</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Grid Intro</h2>
+        <div class="grid-container">
+          <div class="grid-item">1</div>
+          <div class="grid-item">2</div>
+          <div class="grid-item">3</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>SASS Tutorial</h2>
+        <div class="sass-box">Esto es un ejemplo con SASS</div>
+      </section>
+    </div>
+    <footer>
+      <p>© 2024 Mi Página Sencilla</p>
+    </footer>
+  </body>
 </html>

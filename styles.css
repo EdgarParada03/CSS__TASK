@@ -6,209 +6,404 @@
 /* 
    Parte de Edgar Parada
 */
-.align-center{
-   text-align: center;
-   border: 3px solid green;
+.align-center {
+  text-align: center;
+  border: 3px solid green;
 }
 
-.align-right{
-   float: right;
-   border: 3px solid #030303;   
+.align-right {
+  float: right;
+  border: 3px solid #030303;
 }
 
 .CSS-Combinators + p {
-   background-color: yellow;
+  background-color: yellow;
 }
 
 a.highlight:hover {
-   color: #ff0000;
-   font-size: 22px;
-} 
-
-.CSS-Pseudo-Elements::first-line {
-   color: #ff0000;
-   font-variant: small-caps;
- }
-
- .CSS-Opacity img {
-   opacity: 0.5;
- }
-
- .ul-Navigation-Bar{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-
- }
-
- .ul-Navigation-Bar li{
-   display: inline;
- }
-
-
- .CSS-Dropdown{
-   position: relative;
-   display: inline-block;
-   padding: 25px;
-   border-color: black;
-   background-color: red;
-   
- }
-
- .dropdown-content{
-   display: none;
-   position: absolute;
-   background-color: #f9f9f9;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   padding: 12px 16px;
-   z-index: 1;
- }
-
- .CSS-Dropdown:hover .dropdown-content {
-   display: block;
-   
- }
-
- div.CSS-Image-Gallery {
-   margin: 5px;
-   border: 1px solid #ccc;
-   float: left;
-   width: 180px;
- }
- 
- div.CSS-Image-Gallery:hover {
-   border: 1px solid #777;
- }
- 
- div.CSS-Image-Gallery img {
-   width: 100%;
-   height: auto;
- }
- 
- div.desc {
-   padding: 15px;
-   text-align: center;
- }
-
- 
- #navlist li {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-   position: absolute;
-   top: 0;
- }
- 
- #navlist li, #navlist a {
-   height: 44px;
-   display: block;
- }
- 
- #home {
-   left: 0px;
-   width: 46px;
-   background: url('image.png') 0 0;
- }
-
- [title~="Atributte-Selector"] {
-   text-decoration: overline;
-   color: #ff0000;
- }
-
- input[type=text], select {
-   width: 100%;
-   padding: 12px 20px;
-   margin: 8px 0;
-   display: inline-block;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   box-sizing: border-box;
- }
- 
- input[type=submit] {
-   width: 100%;
-   background-color: #4CAF50;
-   color: white;
-   padding: 14px 20px;
-   margin: 8px 0;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
- }
- 
- input[type=submit]:hover {
-   background-color: #45a049;
- }
- 
- .div-Forms {
-   border-radius: 5px;
-   background-color: #f2f2f2;
-   padding: 20px;
- }
-
- body {
-   counter-reset: section;
- }
-
- h6::before {
-   counter-increment: section;
-   content: "Section " counter(section) ": ";
- }
-
- /* Create three equal columns that floats next to each other */
-.column {
-   float: left;
-   width: 30%;
-   padding: 15px;
- }
- 
- /* Clear floats after the columns */
- .row::after {
-   content: "";
-   display: table;
-   clear: both;
- }
- 
- /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
- @media screen and (max-width:600px) {
-   .column {
-     width: 100%;
-   }
- }
-
- #h2-Units-Example{
-   font-size: 15px;
- }
-
- .test {color: green;} 
-
- .CSS-Important p{
-   background-color: #777 !important;
- }
-
- .CSS-Important h2{
-   border: #4CAF50;
-   font-size: 20px;
- }
-
-.CSS-Math-Functions{
-   background-color: antiquewhite;
+  color: #ff0000;
+  font-size: 22px;
 }
 
- #div1 {
-   position: relative;
-   left: 50px;
-   width: calc(100% - 100px);
-   border: 1px solid black;
-   background-color: yellow;
-   padding: 5px;
- }
+.CSS-Pseudo-Elements::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+.CSS-Opacity img {
+  opacity: 0.5;
+}
+
+.ul-Navigation-Bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ul-Navigation-Bar li {
+  display: inline;
+}
+
+.CSS-Dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 25px;
+  border-color: black;
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.CSS-Dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div.CSS-Image-Gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.CSS-Image-Gallery:hover {
+  border: 1px solid #777;
+}
+
+div.CSS-Image-Gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li,
+#navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url("image.png") 0 0;
+}
+
+[title~="Atributte-Selector"] {
+  text-decoration: overline;
+  color: #ff0000;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.div-Forms {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body {
+  counter-reset: section;
+}
+
+h6::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#h2-Units-Example {
+  font-size: 15px;
+}
+
+.test {
+  color: green;
+}
+
+.CSS-Important p {
+  background-color: #777 !important;
+}
+
+.CSS-Important h2 {
+  border: #4caf50;
+  font-size: 20px;
+}
+
+.CSS-Math-Functions {
+  background-color: antiquewhite;
+}
+
+#div1 {
+  position: relative;
+  left: 50px;
+  width: calc(100% - 100px);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+}
 /* 
    Parte de Cristian Estrada
 */
 
-
 /* 
    Parte de Jose Sandoval
 */
+
+.transition-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: background-color 0.5s ease;
+}
+
+.transition-box:hover {
+  background-color: blue;
+}
+
+@keyframes example-animation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: example-animation 2s infinite alternate;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.styled-image {
+  border: 5px solid #555;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.reflected-image {
+  -webkit-box-reflect: below 5px
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.5));
+}
+
+.object-fit-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.object-position-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.masked-box {
+  -webkit-mask-image: url(https://www.w3schools.com/css/w3logo.png);
+  mask-image: url(https://www.w3schools.com/css/w3logo.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat; 
+}
+
+.styled-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.multi-column-text {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.styled-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.styled-input:focus {
+  border-color: #4caf50;
+}
+
+:root {
+  --main-color: coral;
+}
+
+.variable-box {
+  background-color: var(--main-color);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.box-sizing-box {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .media-query-box {
+    background-color: lightcoral;
+  }
+}
+
+.flexbox-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flexbox-item {
+  background-color: lightgreen;
+  padding: 20px;
+  flex: 1;
+}
+
+.rwd-intro {
+  padding: 20px;
+  background-color: lightblue;
+}
+
+@media (max-width: 600px) {
+  .rwd-intro {
+    background-color: lightcoral;
+  }
+}
+
+.rwd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: lightseagreen;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.sass-box {
+  padding: 20px;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+}
