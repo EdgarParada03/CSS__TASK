@@ -151,6 +151,7 @@ input[type=submit]:hover {
 
 body {
   counter-reset: section;
+  background-color: lightblue;
 }
 
 h6::before {
@@ -322,7 +323,159 @@ div#myDiv {
    Parte de Cristian Estrada
 */
 
+.color-texto{
+  color:red;
+  font-size: 40px;
 
+}
+.color-fondo{
+  background-color:tomato;
+  font-size: 40px;
+}
+.color-bordes{
+  border: 6px solid red;
+  font-size: 40px;
+}
+
+.container-div{
+  display: flex ;
+  border: 4px solid black;
+  font-size: 30px;
+}
+
+.div1{
+  background-color: #ff0000;
+  opacity: 1;
+  color: #000000;
+  height: 500px;
+  width: 500px;
+}
+.div2{
+  background-color: #ff0000;
+  opacity: 0.5;
+  color: #000000;
+  height: 500px;
+  width: 500px;
+}
+
+.div3{
+  background-color: #ff0000;
+  opacity: 0.3;
+  color: #000000;
+  height: 500px;
+  width: 500px;
+}
+
+.ejemplo-imagen-fondo{
+  font-size: 60px;
+  height: 1500px;
+  width: 1500px;
+  background-image: url(/img/deadpool-superheroes-minimalism-hd-wallpaper-preview.png);
+  
+}
+
+.ejemplo-imagen-fondo-repeat{
+  font-size: 60px;
+  height: 800px;
+  width: 1500px;
+  background-repeat: no-repeat;
+  background-image: url(/img/deadpool-superheroes-minimalism-hd-wallpaper-preview.png);
+}
+
+.contenedor-bordes{
+  text-align: center;
+  font-size: 40px;
+  border-style: solid;
+  border-width: 5px;
+  margin: 90px;
+  
+}
+.borde-punteado{
+  border-style: dotted;
+  border-color: #45a049; 
+  margin: 10px;
+}
+.borde-doble{
+  border-style: double;
+  border-color: #45a049;
+  margin: 10px;
+}
+.borde-mixto{
+  border-style: dotted dashed solid double;
+  border-color: #45a049;
+  margin: 10px;
+}
+.Margin{
+  border-style: dashed;
+  border-color: #ff0000;
+  text-align: center;
+  background-color: #ebe6e6;
+  font-size: 20px;
+}
+.Border{
+  border-style: dashed;
+  border-color: #000000;
+  margin: 10px;
+  background-color: #45a049;
+}
+
+.padding{
+  border-style: dashed;
+  border-color: #000000;
+  margin: 10px;
+  background-color: #7856e9;
+}
+.content{
+  border-style: dashed;
+  border-color: #000000;
+  margin: 10px;
+  background-color: #e95660;
+  height: 60px;
+}
+.mayuscula{
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.minuscula{
+  text-transform: lowercase;
+  font-size: 40px;
+}
+.interlineado{
+  line-height: 1.8;
+  font-size: 30px;
+  text-align: justify;
+  word-spacing: 10px;
+}
+.listas{
+  border-style: double;
+  width: 800px;
+  margin-left: 300px;
+}
+.lista-desordenada{
+  list-style-type: lower-alpha;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.subs{
+  text-transform: uppercase;
+  
+}
+
+table,td{
+  border-style:solid;
+  border-color: #7856e9;
+  border: 2px solid;
+  height: 80px;
+  width: 1200px;
+  margin: 60px;
+  text-align: center;
+  
+}
+
+tr:hover{
+background-color: #45a049;
+}
 /* 
    Parte de Jose Sandoval
 */
