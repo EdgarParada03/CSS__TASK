@@ -9,285 +9,299 @@
 .align-center {
   text-align: center;
   border: 3px solid green;
-.align-center {
-  text-align: center;
-  border: 3px solid green;
-}
+  .align-center {
+    text-align: center;
+    border: 3px solid green;
+  }
 
-.align-right {
-  float: right;
-  border: 3px solid #030303;
-.align-right {
-  float: right;
-  border: 3px solid #030303;
-}
+  .align-right {
+    float: right;
+    border: 3px solid #030303;
+    .align-right {
+      float: right;
+      border: 3px solid #030303;
+    }
 
-.CSS-Combinators + p {
-  background-color: yellow;
-.CSS-Combinators+p {
-  background-color: yellow;
-}
+    .CSS-Combinators + p {
+      background-color: yellow;
+      .CSS-Combinators + p {
+        background-color: yellow;
+      }
 
-a.highlight:hover {
-  color: #ff0000;
-  font-size: 22px;
-}
-  color: #ff0000;
-  font-size: 22px;
-}
+      a.highlight:hover {
+        color: #ff0000;
+        font-size: 22px;
+      }
+      color: #ff0000;
+      font-size: 22px;
+    }
 
-.CSS-Pseudo-Elements::first-line {
-  color: #ff0000;
-  font-variant: small-caps;
-}
-  color: #ff0000;
-  font-variant: small-caps;
-}
+    .CSS-Pseudo-Elements::first-line {
+      color: #ff0000;
+      font-variant: small-caps;
+    }
+    color: #ff0000;
+    font-variant: small-caps;
+  }
 
-.CSS-Opacity img {
-  opacity: 0.5;
-}
-.CSS-Opacity img {
-  opacity: 0.5;
-}
+  .CSS-Opacity img {
+    opacity: 0.5;
+  }
+  .CSS-Opacity img {
+    opacity: 0.5;
+  }
 
-.ul-Navigation-Bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.ul-Navigation-Bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  .ul-Navigation-Bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .ul-Navigation-Bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-}
+  .ul-Navigation-Bar li {
+    display: inline;
+  }
+  .ul-Navigation-Bar li {
+    display: inline;
+  }
 
-.ul-Navigation-Bar li {
-  display: inline;
-}
-.ul-Navigation-Bar li {
-  display: inline;
-}
+  .CSS-Dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 25px;
+    border-color: black;
+    background-color: red;
+  }
 
-.CSS-Dropdown {
-  position: relative;
-  display: inline-block;
-  padding: 25px;
-  border-color: black;
-  background-color: red;
-}
+  .CSS-Dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 25px;
+    border-color: black;
+    background-color: red;
+  }
 
-.CSS-Dropdown {
-  position: relative;
-  display: inline-block;
-  padding: 25px;
-  border-color: black;
-  background-color: red;
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
 
-}
+  .CSS-Dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .CSS-Dropdown:hover .dropdown-content {
+    display: block;
+  }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
+  div.CSS-Image-Gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
 
-.CSS-Dropdown:hover .dropdown-content {
-  display: block;
-}
-.CSS-Dropdown:hover .dropdown-content {
-  display: block;
+  div.CSS-Image-Gallery:hover {
+    border: 1px solid #777;
+  }
 
-}
+  div.CSS-Image-Gallery img {
+    width: 100%;
+    height: auto;
+  }
 
-div.CSS-Image-Gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
 
-div.CSS-Image-Gallery:hover {
-  border: 1px solid #777;
-}
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+  }
 
-div.CSS-Image-Gallery img {
-  width: 100%;
-  height: auto;
-}
+  #navlist li,
+  #navlist a {
+    height: 44px;
+    display: block;
+  }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+  #home {
+    left: 0px;
+    width: 46px;
+    background: url("image.png") 0 0;
+  }
+  div.CSS-Image-Gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
 
-#navlist li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: absolute;
-  top: 0;
-}
+  div.CSS-Image-Gallery:hover {
+    border: 1px solid #777;
+  }
 
-#navlist li,
-#navlist a {
-  height: 44px;
-  display: block;
-}
+  div.CSS-Image-Gallery img {
+    width: 100%;
+    height: auto;
+  }
 
-#home {
-  left: 0px;
-  width: 46px;
-  background: url("image.png") 0 0;
-}
-div.CSS-Image-Gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
 
-div.CSS-Image-Gallery:hover {
-  border: 1px solid #777;
-}
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+  }
 
-div.CSS-Image-Gallery img {
-  width: 100%;
-  height: auto;
-}
+  #navlist li,
+  #navlist a {
+    height: 44px;
+    display: block;
+  }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+  #home {
+    left: 0px;
+    width: 46px;
+    background: url("image.png") 0 0;
+  }
 
+  [title~="Atributte-Selector"] {
+    text-decoration: overline;
+    color: #ff0000;
+  }
+  [title~="Atributte-Selector"] {
+    text-decoration: overline;
+    color: #ff0000;
+  }
 
-#navlist li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: absolute;
-  top: 0;
-}
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
-#navlist li,
-#navlist a {
-  height: 44px;
-  display: block;
-}
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-#home {
-  left: 0px;
-  width: 46px;
-  background: url('image.png') 0 0;
-}
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
 
-[title~="Atributte-Selector"] {
-  text-decoration: overline;
-  color: #ff0000;
-}
-[title~="Atributte-Selector"] {
-  text-decoration: overline;
-  color: #ff0000;
-}
+  .div-Forms {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
-input[type="text"],
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-input[type="submit"] {
-  width: 100%;
-  background-color: #4caf50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
+  .div-Forms {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
-.div-Forms {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-input[type=text],
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+  body {
+    counter-reset: section;
+  }
+  body {
+    counter-reset: section;
+    background-color: lightblue;
+  }
 
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+  h6::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
+  h6::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
+  /* Create three equal columns that floats next to each other */
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
 
-.div-Forms {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-body {
-  counter-reset: section;
-}
-body {
-  counter-reset: section;
-  background-color: lightblue;
-}
-
-h6::before {
-  counter-increment: section;
-  content: "Section " counter(section) ": ";
-}
-h6::before {
-  counter-increment: section;
-  content: "Section " counter(section) ": ";
-}
-
-/* Create three equal columns that floats next to each other */
-/* Create three equal columns that floats next to each other */
-.column {
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
   float: left;
   width: 30%;
   padding: 15px;
@@ -302,24 +316,6 @@ h6::before {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-  float: left;
-  width: 30%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
   .column {
     width: 100%;
   }
@@ -351,14 +347,15 @@ h6::before {
   font-size: 20px;
 }
 .CSS-Important h2 {
-  border: #4CAF50;
+  border: #4caf50;
   font-size: 20px;
 }
 
 .CSS-Math-Functions {
   background-color: antiquewhite;
-.CSS-Math-Functions {
-  background-color: antiquewhite;
+  .CSS-Math-Functions {
+    background-color: antiquewhite;
+  }
 }
 
 #div1 {
@@ -380,14 +377,14 @@ h6::before {
 
 #Rounded-Corners {
   border-radius: 25px;
-  background: #73AD21;
+  background: #73ad21;
   padding: 20px;
   width: 100px;
   height: 80px;
 }
 
 #No-Rounded-Corners {
-  background: #73AD21;
+  background: #73ad21;
   padding: 20px;
   width: 100px;
   height: 80px;
@@ -399,43 +396,41 @@ h6::before {
   border-image: url(border.png) 30 stretch;
 }
 
-#No-Border-Images{
+#No-Border-Images {
   border: 10px solid transparent;
   padding: 15px;
-  
 }
 
 #example1 {
   background-image: url(image.png);
-  
+
   background-repeat: no-repeat, repeat;
-
 }
 
-#example1 p,  h1{
-   color: #f9f9f9;
-
+#example1 p,
+h1 {
+  color: #f9f9f9;
 }
 
-#Colors-RGBA{
-  background-color:rgba(255,0,0,0.3);
+#Colors-RGBA {
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
-.CSS-Color-Keywords{
+.CSS-Color-Keywords {
   background-color: #ff0000;
 }
 
-div.ex1 { 
+div.ex1 {
   background-color: lightgreen;
   border: 2px solid black;
   padding: 15px;
 }
 
-div.ex2 { 
+div.ex2 {
   background-color: transparent;
   border: 2px solid black;
   padding: 15px;
-} 
+}
 
 #grad1 {
   height: 200px;
@@ -443,24 +438,24 @@ div.ex2 {
   background-image: linear-gradient(red, yellow);
 }
 
-#h1-Shadows{
+#h1-Shadows {
   background-color: black;
   text-shadow: 2px 2px red;
 }
 
-.CSS-Text-Effects{
+.CSS-Text-Effects {
   background-color: greenyellow;
 }
 
 p.test2 {
-  white-space: nowrap; 
-  width: 200px; 
+  white-space: nowrap;
+  width: 200px;
   border: 1px solid #000000;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.CSS-Web-Fonts{
+.CSS-Web-Fonts {
   background-color: rgb(2, 139, 32);
 }
 
@@ -491,35 +486,33 @@ div#myDiv {
    Parte de Cristian Estrada
 */
 
-
-.color-texto{
-  color:red;
-  font-size: 40px;
-
-}
-.color-fondo{
-  background-color:tomato;
+.color-texto {
+  color: red;
   font-size: 40px;
 }
-.color-bordes{
+.color-fondo {
+  background-color: tomato;
+  font-size: 40px;
+}
+.color-bordes {
   border: 6px solid red;
   font-size: 40px;
 }
 
-.container-div{
-  display: flex ;
+.container-div {
+  display: flex;
   border: 4px solid black;
   font-size: 30px;
 }
 
-.div1{
+.div1 {
   background-color: #ff0000;
   opacity: 1;
   color: #000000;
   height: 500px;
   width: 500px;
 }
-.div2{
+.div2 {
   background-color: #ff0000;
   opacity: 0.5;
   color: #000000;
@@ -527,7 +520,7 @@ div#myDiv {
   width: 500px;
 }
 
-.div3{
+.div3 {
   background-color: #ff0000;
   opacity: 0.3;
   color: #000000;
@@ -535,15 +528,14 @@ div#myDiv {
   width: 500px;
 }
 
-.ejemplo-imagen-fondo{
+.ejemplo-imagen-fondo {
   font-size: 60px;
   height: 1500px;
   width: 1500px;
   background-image: url(/img/deadpool-superheroes-minimalism-hd-wallpaper-preview.png);
-  
 }
 
-.ejemplo-imagen-fondo-repeat{
+.ejemplo-imagen-fondo-repeat {
   font-size: 60px;
   height: 800px;
   width: 1500px;
@@ -551,99 +543,97 @@ div#myDiv {
   background-image: url(/img/deadpool-superheroes-minimalism-hd-wallpaper-preview.png);
 }
 
-.contenedor-bordes{
+.contenedor-bordes {
   text-align: center;
   font-size: 40px;
   border-style: solid;
   border-width: 5px;
   margin: 90px;
-  
 }
-.borde-punteado{
+.borde-punteado {
   border-style: dotted;
-  border-color: #45a049; 
+  border-color: #45a049;
   margin: 10px;
 }
-.borde-doble{
+.borde-doble {
   border-style: double;
   border-color: #45a049;
   margin: 10px;
 }
-.borde-mixto{
+.borde-mixto {
   border-style: dotted dashed solid double;
   border-color: #45a049;
   margin: 10px;
 }
-.Margin{
+.Margin {
   border-style: dashed;
   border-color: #ff0000;
   text-align: center;
   background-color: #ebe6e6;
   font-size: 20px;
 }
-.Border{
+.Border {
   border-style: dashed;
   border-color: #000000;
   margin: 10px;
   background-color: #45a049;
 }
 
-.padding{
+.padding {
   border-style: dashed;
   border-color: #000000;
   margin: 10px;
   background-color: #7856e9;
 }
-.content{
+.content {
   border-style: dashed;
   border-color: #000000;
   margin: 10px;
   background-color: #e95660;
   height: 60px;
 }
-.mayuscula{
+.mayuscula {
   text-transform: uppercase;
   font-size: 40px;
 }
-.minuscula{
+.minuscula {
   text-transform: lowercase;
   font-size: 40px;
 }
-.interlineado{
+.interlineado {
   line-height: 1.8;
   font-size: 30px;
   text-align: justify;
   word-spacing: 10px;
 }
-.listas{
+.listas {
   border-style: double;
   width: 800px;
   margin-left: 300px;
 }
-.lista-desordenada{
+.lista-desordenada {
   list-style-type: lower-alpha;
   font-size: 50px;
   margin: 50px;
 }
 
-.subs{
+.subs {
   text-transform: uppercase;
-  
 }
 
-table,td{
-  border-style:solid;
+table,
+td {
+  border-style: solid;
   border-color: #7856e9;
   border: 2px solid;
   height: 80px;
   width: 1200px;
   margin: 60px;
   text-align: center;
-  
 }
 
-tr:hover{
-background-color: #45a049;
+tr:hover {
+  background-color: #45a049;
 }
 /* 
    Parte de Jose Sandoval
@@ -733,7 +723,7 @@ background-color: #45a049;
   -webkit-mask-image: url(https://www.w3schools.com/css/w3logo.png);
   mask-image: url(https://www.w3schools.com/css/w3logo.png);
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; 
+  mask-repeat: no-repeat;
 }
 
 .styled-button {
@@ -845,4 +835,3 @@ background-color: #45a049;
   color: white;
   border-radius: 5px;
 }
-
