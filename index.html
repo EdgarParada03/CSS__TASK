@@ -1,481 +1,396 @@
-/* 
-   Aqui vamos a poner los comandos CSS
-   NO BORRAR NADA HASTA QUE NO SE HAYA TERMINADO TODO EL TRABAJO
-*/
-
-/* 
-   Parte de Edgar Parada
-*/
-.align-center {
-  text-align: center;
-  border: 3px solid green;
-}
-
-.align-right {
-  float: right;
-  border: 3px solid #030303;
-}
-
-.CSS-Combinators+p {
-  background-color: yellow;
-}
-
-a.highlight:hover {
-  color: #ff0000;
-  font-size: 22px;
-}
-
-.CSS-Pseudo-Elements::first-line {
-  color: #ff0000;
-  font-variant: small-caps;
-}
-
-.CSS-Opacity img {
-  opacity: 0.5;
-}
-
-.ul-Navigation-Bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-}
-
-.ul-Navigation-Bar li {
-  display: inline;
-}
-
-
-.CSS-Dropdown {
-  position: relative;
-  display: inline-block;
-  padding: 25px;
-  border-color: black;
-  background-color: red;
-
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.CSS-Dropdown:hover .dropdown-content {
-  display: block;
-
-}
-
-div.CSS-Image-Gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.CSS-Image-Gallery:hover {
-  border: 1px solid #777;
-}
-
-div.CSS-Image-Gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-
-#navlist li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: absolute;
-  top: 0;
-}
-
-#navlist li,
-#navlist a {
-  height: 44px;
-  display: block;
-}
-
-#home {
-  left: 0px;
-  width: 46px;
-  background: url('image.png') 0 0;
-}
-
-[title~="Atributte-Selector"] {
-  text-decoration: overline;
-  color: #ff0000;
-}
-
-input[type=text],
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.div-Forms {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-body {
-  counter-reset: section;
-  background-color: lightblue;
-}
-
-h6::before {
-  counter-increment: section;
-  content: "Section " counter(section) ": ";
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 30%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-#h2-Units-Example {
-  font-size: 15px;
-}
-
-.test {
-  color: green;
-}
-
-.CSS-Important p {
-  background-color: #777 !important;
-}
-
-.CSS-Important h2 {
-  border: #4CAF50;
-  font-size: 20px;
-}
-
-.CSS-Math-Functions {
-  background-color: antiquewhite;
-}
-
-#div1 {
-  position: relative;
-  left: 50px;
-  width: calc(100% - 100px);
-  border: 1px solid black;
-  background-color: yellow;
-  padding: 5px;
-}
-
-#Rounded-Corners {
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 100px;
-  height: 80px;
-}
-
-#No-Rounded-Corners {
-  background: #73AD21;
-  padding: 20px;
-  width: 100px;
-  height: 80px;
-}
-
-#Border-Images {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(border.png) 30 stretch;
-}
-
-#No-Border-Images{
-  border: 10px solid transparent;
-  padding: 15px;
-  
-}
-
-#example1 {
-  background-image: url(image.png);
-  
-  background-repeat: no-repeat, repeat;
-
-}
-
-#example1 p,  h1{
-   color: #f9f9f9;
-
-}
-
-#Colors-RGBA{
-  background-color:rgba(255,0,0,0.3);
-}
-
-.CSS-Color-Keywords{
-  background-color: #ff0000;
-}
-
-div.ex1 { 
-  background-color: lightgreen;
-  border: 2px solid black;
-  padding: 15px;
-}
-
-div.ex2 { 
-  background-color: transparent;
-  border: 2px solid black;
-  padding: 15px;
-} 
-
-#grad1 {
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(red, yellow);
-}
-
-#h1-Shadows{
-  background-color: black;
-  text-shadow: 2px 2px red;
-}
-
-.CSS-Text-Effects{
-  background-color: greenyellow;
-}
-
-p.test2 {
-  white-space: nowrap; 
-  width: 200px; 
-  border: 1px solid #000000;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.CSS-Web-Fonts{
-  background-color: rgb(2, 139, 32);
-}
-
-@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
-}
-
-@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_bold.woff);
-  font-weight: bold;
-}
-
-* {
-  font-family: myFirstFont;
-}
-
-div#myDiv {
-  width: 100px;
-  position: static;
-  height: 80px;
-  background-color: yellow;
-  border: 1px solid black;
-  transform: rotate(20deg);
-}
-/* 
-   Parte de Cristian Estrada
-*/
-
-.color-texto{
-  color:red;
-  font-size: 40px;
-
-}
-.color-fondo{
-  background-color:tomato;
-  font-size: 40px;
-}
-.color-bordes{
-  border: 6px solid red;
-  font-size: 40px;
-}
-
-.container-div{
-  display: flex ;
-  border: 4px solid black;
-  font-size: 30px;
-}
-
-.div1{
-  background-color: #ff0000;
-  opacity: 1;
-  color: #000000;
-  height: 500px;
-  width: 500px;
-}
-.div2{
-  background-color: #ff0000;
-  opacity: 0.5;
-  color: #000000;
-  height: 500px;
-  width: 500px;
-}
-
-.div3{
-  background-color: #ff0000;
-  opacity: 0.3;
-  color: #000000;
-  height: 500px;
-  width: 500px;
-}
-
-.ejemplo-imagen-fondo{
-  font-size: 60px;
-  height: 1500px;
-  width: 1500px;
-  background-image: url(/img/deadpool-superheroes-minimalism-hd-wallpaper-preview.png);
-  
-}
-
-.ejemplo-imagen-fondo-repeat{
-  font-size: 60px;
-  height: 800px;
-  width: 1500px;
-  background-repeat: no-repeat;
-  background-image: url(/img/deadpool-superheroes-minimalism-hd-wallpaper-preview.png);
-}
-
-.contenedor-bordes{
-  text-align: center;
-  font-size: 40px;
-  border-style: solid;
-  border-width: 5px;
-  margin: 90px;
-  
-}
-.borde-punteado{
-  border-style: dotted;
-  border-color: #45a049; 
-  margin: 10px;
-}
-.borde-doble{
-  border-style: double;
-  border-color: #45a049;
-  margin: 10px;
-}
-.borde-mixto{
-  border-style: dotted dashed solid double;
-  border-color: #45a049;
-  margin: 10px;
-}
-.Margin{
-  border-style: dashed;
-  border-color: #ff0000;
-  text-align: center;
-  background-color: #ebe6e6;
-  font-size: 20px;
-}
-.Border{
-  border-style: dashed;
-  border-color: #000000;
-  margin: 10px;
-  background-color: #45a049;
-}
-
-.padding{
-  border-style: dashed;
-  border-color: #000000;
-  margin: 10px;
-  background-color: #7856e9;
-}
-.content{
-  border-style: dashed;
-  border-color: #000000;
-  margin: 10px;
-  background-color: #e95660;
-  height: 60px;
-}
-.mayuscula{
-  text-transform: uppercase;
-  font-size: 40px;
-}
-.minuscula{
-  text-transform: lowercase;
-  font-size: 40px;
-}
-.interlineado{
-  line-height: 1.8;
-  font-size: 30px;
-  text-align: justify;
-  word-spacing: 10px;
-}
-.listas{
-  border-style: double;
-  width: 800px;
-  margin-left: 300px;
-}
-.lista-desordenada{
-  list-style-type: lower-alpha;
-  font-size: 50px;
-  margin: 50px;
-}
-
-.subs{
-  text-transform: uppercase;
-  
-}
-
-table,td{
-  border-style:solid;
-  border-color: #7856e9;
-  border: 2px solid;
-  height: 80px;
-  width: 1200px;
-  margin: 60px;
-  text-align: center;
-  
-}
-
-tr:hover{
-background-color: #45a049;
-}
-/* 
-   Parte de Jose Sandoval
-*/
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Sencilla</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
+    </header>
+    <main>
+        <p>Esta es una página HTML sencilla con un archivo CSS externo.</p>
+
+        <main class="Edgar-main">
+
+            <div>
+
+                <div class="align-center">
+                    This is a example of CSS Align Center
+                </div>
+
+                <div class="align-right">
+                    This is a example of CSS Align Right
+                </div>
+
+            </div>
+
+            <div class="CSS-Combinators">
+                <p>Combinators into a div</p>
+            </div>
+
+            <p>Combinators outside a div</p>
+
+            <div class="CSS-Pseudo-Class">
+                <p><a class="highlight">When you hover over this Pseudo Class Example, it will change color and font
+                        size</a></p>
+            </div>
+
+            <div class="CSS-Pseudo-Elements">
+                <p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some
+                    more text. And even more, and more, and more, and more, and more, and more, and more, and more, and
+                    more, and more, and more, and more.</p>
+            </div>
+
+            <div class="CSS-Opacity">
+                <p>Example of an Image with 50% of opacity:</p>
+                <img src="img/image.png" alt="Forest" width="170" height="100">
+            </div>
+
+            <p>Same Image without 50% of opacity:</p>
+            <img src="img/image.png" alt="Forest" width="170" height="100">
+
+            <div class="CSS-Navigation-Bar">
+                <ul class="ul-Navigation-Bar">
+                    <li><a href="default.asp">A Example</a></li>
+                    <li><a href="news.asp">of a</a></li>
+                    <li><a href="contact.asp">Navigation Bar</a></li>
+                    <li><a href="about.asp">Without the bullets</a></li>
+                </ul>
+            </div>
+
+            <div class="CSS-Dropdown">
+                <span>Mouse over me, for see the DropDown function</span>
+                <div class="dropdown-content">
+                    <p>Hello, remember that u can do it with a menu or imagen too</p>
+                </div>
+            </div>
+
+            <div class="CSS-Image-Gallery">
+                <a target="_blank" href="img/image.png">
+                    <img src="img/image.png" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">An example of the Image Gallery, u can add a description of the image here</div>
+            </div>
+
+            <div class="CSS-Image-Sprites">
+                <ul id="navlist">
+                    <li id="home"><a href="Go_to_another_website_or_something_"></a></li>
+
+                </ul>
+            </div>
+
+            <div class="CSS-Attribute-Selector">
+                <ul class="ul-Navigation-Bar">
+                    <li>
+                        <p title="Atributte-Selector">Example with a Atributte-Selector</p>
+                    </li>
+                    <li>
+                        <p title="Atributte-Selector">Example with a Atributte-Selector</p>
+                    </li>
+                    <li>
+                        <p>Example without a Atributte-Selector</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="CSS-Forms">
+                <h3>Using CSS to style an HTML Form</h3>
+
+                <div class="div-Forms">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="CSS-Counters">
+                <h1>Using CSS Counters</h1>
+
+                <h6>Example of</h6>
+                <h6>CSS Counters</h6>
+                <h6>Using for</h6>
+                <h6>Create a section</h6>
+                <h6>Just with the "h6" tag</h6>
+            </div>
+
+            <div class="CSS-WebsiteLayout">
+                <h2>How needs to look an columns of a website:</h2>
+                <div class="row">
+                    <div class="column">
+                        <h2>Column 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
+                            Vivamus
+                            venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus
+                            eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent
+                            scelerisque tortor sed accumsan convallis.</p>
+                    </div>
+
+                    <div class="column">
+                        <h2>Column 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
+                            Vivamus
+                            venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus
+                            eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent
+                            scelerisque tortor sed accumsan convallis.</p>
+                    </div>
+
+                    <div class="column">
+                        <h2>Column 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
+                            Vivamus
+                            venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus
+                            eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent
+                            scelerisque tortor sed accumsan convallis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="CSS-Units">
+                <h2>Example of one "h2" tag with a normal size</h2>
+                <h2 id="h2-Units-Example">Example of one "h2" tag with a size of 10 pixels</h2>
+            </div>
+
+            <div class="CSS-Specificity">
+                <p class="test">Example of a tag with the design from a CSS Specificity</p>
+            </div>
+
+            <div class="CSS-Important">
+                <h2>How we can see, the design is prioritized by the tag that have the "!important" on CSS:</h2>
+                <p id="p1_Edgar">Example of one "p" tag without the "!important" on CSS</p>
+                <p id="p2_Edgar">Example of one "p" tag with the "!important" on CSS</p>
+            </div>
+
+            <div class="CSS-Math-Functions">
+                <h1>An example of a Math Function on the CSS - The calc() Function</h1>
+
+                <p>Create a div that stretches across the window, with a 50px gap between both sides of the div and the
+                    edges of the window:</p>
+
+                <div id="div1">Some text...</div>
+            </div>
+
+            <div class="CSS-Rounded-Corners">
+
+                <p id="Rounded-Corners">Example of one with Rounded corners</p>
+                <p id="No-Rounded-Corners">Example of one without Rounded corners</p>
+            </div>
+
+            <div class="CSS-Border-Images">
+                <p id="Border-Images">Example of one with Border Images</p>
+                <p id="No-Border-Images">Example of one without Border Images</p>
+            </div>
+
+            <div class="CSS-Backgrounds">
+                <div id="example1">
+                    <h1>Backgrounds Example</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div class="CSS-Colors">
+                <p id="Colors-RGBA">Example of one color with a RGBA value, the value is: (255,0,0,0.3) = Red</p>
+            </div>
+
+            <div class="CSS-Color-Keywords">
+                <h2>The transparent Keyword</h2>
+
+                <div class="ex1">This div has a light green background.</div>
+                <br>
+                <div class="ex2">This div has a transparent background.</div>
+
+            </div>
+
+            <div class="CSS-Gradients">
+                <h1 style="color: black;">Linear Gradient - Top to Bottom</h1>
+                <p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+
+                <div id="grad1"></div>
+
+            </div>
+
+            <div class="CSS-Shadows">
+                <h1 id="h1-Shadows">An Example of Shadows Effects</h1>
+            </div>
+
+            <div class="CSS-Text-Effects">
+                <p>The following paragraph contains a long text that will not fit in the box.</p>
+                <h2>text-overflow: ellipsis:</h2>
+                <p class="test2">This is some long text that will not fit in the box</p>
+
+            </div>
+
+            <div class="CSS-Web-Fonts">
+                <h2>The @font-face Rule</h2>
+
+                <div>
+                    With CSS, websites can use <b>fonts other than the pre-selected "web-safe" fonts</b>.
+                </div>
+            </div>
+
+            <div class="CSS-2D-Tranformations">
+                <div id="myDiv">
+                    This div is rotated clockwise 20 degrees.
+                </div>
+            </div>
+        </main>
+
+
+        <main class="Cristian-main">
+
+            <div>
+                <br>
+
+                <div class="color-texto">
+                    Ejmplo con color de texto poir nombre
+                </div>
+
+                <div class="color-fondo">
+                    Ejmplo con color de fondo por nombre
+                </div>
+
+                <br>
+                <div class="color-bordes">
+                    Ejmplo con color de bordes por nombre
+
+                </div>
+
+                <div class="color-bordes-rgb">
+                    Ejmplo con color de bordes rgb
+                </div>
+
+                <div class="container-div">
+                    <div class="div1">
+                        opacidad
+                    </div>
+                    <div class="div2">
+                        opacidad
+                    </div>
+                    <div class="div3">
+                        opacidad
+                    </div>
+                </div>
+
+                <div class="ejemplo-imagen-fondo">
+                    Imagen de fondo en el div
+                </div>
+                <br>
+                <div class="ejemplo-imagen-fondo-repeat">
+                    Imagen de fondo en el div sin repetirse
+                </div>
+
+                <br>
+                <div class="contenedor-bordes">
+                    <br>
+                    <div class="borde-punteado">
+                        borde punteado
+                    </div>
+                    <br>
+                    <div class="borde-doble">
+                        borde doble
+                    </div>
+                    <br>
+                    <div class="borde-mixto">
+                        borde mixto
+                    </div>
+                    <br>
+                </div>
+
+                <div class="Margin">
+                    Margin
+                    <div class="Border">
+                        Border
+                        <div class="padding">
+                            padding
+                            <div class="content">
+                                content
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <br>
+                <div class="mayuscula">Este div lo pase a mayuscula</div>
+                <br>
+                <div class="minuscula">Este div lo pase a minuscula</div>
+
+            </div>
+
+            <div class="interlineado">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat velit corporis laudantium ea quia.
+                    Consectetur, harum numquam. Exercitationem officiis, vitae, possimus odio quis nobis esse qui quasi
+                    iure accusamus debitis.</p>
+            </div>
+
+            <i class="material-icons">phone</i>
+            <i class="material-icons">favorite</i>
+            <i class="material-icons">attachment</i>
+            <i class="material-icons">computer</i>
+            <i class="material-icons">coffee</i>
+
+            <div class="listas">
+                <ul class="lista-desordenada">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+
+            <br>
+            <div class="tabla">
+                <table>
+                    <tr class="subs">
+                        <td>celda 1</td>
+                        <td>celda 2</td>
+                        <td>celda 3</td>
+                        <td>celda 4</td>
+                    </tr>
+                    <tr>
+                        <td>dato 1</td>
+                        <td>dato 2</td>
+                        <td>dato 3</td>
+                        <td>dato 4</td>
+                    </tr>
+                    <tr>
+                        <td>dato 1</td>
+                        <td>dato 2</td>
+                        <td>dato 3</td>
+                        <td>dato 4</td>
+                    </tr>
+                    <h2>prueba</h2>
+                    
+                </table>
+            </div>
+        </main>
+    </main>
+    <footer>
+        <p>© 2024 Mi Página Sencilla</p>
+    </footer>
+</body>
+
+</html>
